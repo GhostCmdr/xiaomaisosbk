@@ -1,4 +1,4 @@
-baseURL = "https://ghost-insititue.github.io/xiaomaisosbk/"
+baseURL = "http://www.xiaomaisos.me"
 title = "我的博客"
 theme = "hugo-theme-reimu"
 locale = "zh-CN"
