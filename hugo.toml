@@ -1,0 +1,11 @@
+baseURL = "https://example.org/"
+title = "我的博客"
+theme = "hugo-theme-reimu"
+languageCode = "zh-CN"
+
+# 主题参数
+[params]
+  defaultTheme = "auto"
+
+  [params.sidebar]
+    position = "left"
