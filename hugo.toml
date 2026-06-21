@@ -11,9 +11,12 @@ locale = "zh-CN"
   # 侧边栏文字
   description = "埋学研究员"
 
-  # 预加载动画文字
+  # 预加载跳转动画文字
   [params.preloader]
-    zh-CN = "研究埋学中..."
+    enable = true
+
+    [params.preloader.text]
+      zh-CN = "研究埋学中..."
 
   # 主页背景文字
   [params.subtitle]
