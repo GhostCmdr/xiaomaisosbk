@@ -1,11 +1,27 @@
-baseURL = "http://www.xiaomaisos.me"
-title = "我的博客"
+baseURL = "https://www.xiaomaisos.me/"
+title = "小埋团长的小站"
 theme = "hugo-theme-reimu"
 locale = "zh-CN"
 
-# 主题参数
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "light"
+  avatar = "touxiang.jpg"
+  banner = "images/beijing.jpg"
+  author = "小埋团长"
+  # 侧边栏文字
+  description = "埋学研究员"
+
+  # 预加载动画文字
+  [params.preloader]
+    zh-CN = "研究埋学中..."
+
+  # 主页背景文字
+  [params.subtitle]
+    text = "埋学研究员"
 
   [params.sidebar]
     position = "left"
+  
+  # 博客主题
+  [params.injector]
+  head_end = '<link rel="stylesheet" href="/css/custom.css">'
