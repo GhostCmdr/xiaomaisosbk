@@ -10,3 +10,30 @@
   --color-red-6-shadow: rgba(238, 137, 81, 0.6);
   --color-red-3-shadow: rgba(238, 137, 81, 0.3);
 }
+
+/* 自定义鼠标光标 */
+html {
+  cursor: url("/images/moren.png") 0 0, auto;
+}
+
+input, textarea, [contenteditable] {
+  cursor: url("/images/wenben.png") 0 0, text;
+}
+
+/* 链接和按钮保留系统默认小手 */
+a, button, .post-link {
+  cursor: pointer;
+}
+
+/* 修正光标热点坐标 */
+html {
+  cursor: url("/images/cursor/moren.png") 7 9, auto !important;
+}
+
+a:hover, button:hover, .post-link:hover {
+  cursor: url("/images/cursor/xuanting.png") 7 9, pointer !important;
+}
+
+input, textarea, [contenteditable] {
+  cursor: url("/images/cursor/wenben.png") 8 17, text !important;
+}

@@ -11,6 +11,15 @@ locale = "zh-CN"
   # 侧边栏文字
   description = "埋学研究员"
 
+  #网页鼠标样式自定义 
+  [params.reimu_cursor]
+    enable = true
+
+    [params.reimu_cursor.cursor]
+    default = "../images/cursor/moren.png"
+    pointer = "../images/cursor/xuanze.png"
+    text = "../images/cursor/wenben.png"
+
   # 预加载跳转动画文字
   [params.preloader]
     enable = true
